@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1710259404467" clover="3.2.0">
-  <project timestamp="1710259404467" name="All files">
-    <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5" elements="11" coveredelements="11" complexity="0" loc="6" ncloc="6" packages="1" files="1" classes="1"/>
+<coverage generated="1710330165672" clover="3.2.0">
+  <project timestamp="1710330165672" name="All files">
+    <metrics statements="13" coveredstatements="11" conditionals="4" coveredconditionals="1" methods="6" coveredmethods="6" elements="23" coveredelements="18" complexity="0" loc="13" ncloc="13" packages="1" files="1" classes="1"/>
     <file name="sample.js" path="/home/olibek/Desktop/projects/jest/sample.js">
-      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+      <metrics statements="13" coveredstatements="11" conditionals="4" coveredconditionals="1" methods="6" coveredmethods="6"/>
       <line num="3" count="1" type="stmt"/>
       <line num="8" count="1" type="stmt"/>
       <line num="13" count="1" type="stmt"/>
       <line num="14" count="1" type="stmt"/>
       <line num="15" count="1" type="stmt"/>
-      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="24" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="26" count="0" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="31" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

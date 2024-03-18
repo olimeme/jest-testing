@@ -17,8 +17,21 @@ async function fetchData() {
   });
 }
 
+function findMin(nums) {
+  let [left, right] = [0, nums.length - 1];
+  while (left < right) {
+    let mid = ~~((right + left) / 2);
+    if (nums[mid] > nums[right]) left = mid + 1;
+    else if (nums[mid] < nums[right]) right = mid;
+    else right--;
+  }
+  return nums[left];
+}
+
 module.exports = {
   sum,
   multiply,
   fetchData,
+  // positiveOrNegative,
+  findMin,
 };
